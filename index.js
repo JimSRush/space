@@ -1,7 +1,7 @@
 var express = require('express')
-   , cors = require('cors');
-var app = express();
-var data = require ('./keys.txt');//we need this!
+  	cors = require('cors'),
+   	app = express(),
+   	data = require ('./keys.txt');//we need this!
 
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
