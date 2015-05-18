@@ -1,0 +1,11 @@
+{
+  "name"         : "Space",
+  "version"      : "0.0.1",
+  "description"  : "What do you like from space?",
+  "main"         : "index.js",
+  "author"       : "Jim & Matt",
+  "dependencies" : {
+    "express"    : "~3.4.8",
+    "cors"		 : "~2.5.3"
+    }
+}
